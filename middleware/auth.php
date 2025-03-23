@@ -5,4 +5,3 @@ function authenticate() {
         exit();
     }
 }
-?>

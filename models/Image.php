@@ -30,4 +30,3 @@ class Image {
         return $stmt->execute();
     }
 }
-?>

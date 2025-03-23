@@ -34,4 +34,3 @@ catch (Exception $e) {
     http_response_code(500);
     echo json_encode(["status" => "error", "message" => "خطأ في الخادم: " . $e->getMessage()], JSON_UNESCAPED_UNICODE);
 }
-?>

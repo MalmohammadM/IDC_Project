@@ -58,4 +58,3 @@ class Product {
         return $stmt->execute();
     }
 }
-?>
